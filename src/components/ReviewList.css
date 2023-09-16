@@ -1,0 +1,24 @@
+/* src/components/ReviewList.css */
+.review-list {
+    margin-top: 20px;
+  }
+  
+  .review {
+    word-wrap: break-word; /* Add this style to allow word wrapping */
+    /* Add any other styles you need for the .review class */
+  }
+
+  .review-separator {
+    border: none;
+    height: 1px; /* Adjust the height to your preference */
+    background-color : #333; /* Use a dark gray or a color closer to black */
+    margin: 10px 0; /* Add some spacing above and below the line */
+  }
+
+  .review-list-container {
+    max-height: 200px; /* Adjust to your desired maximum height */
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+  }
